@@ -7,35 +7,28 @@
 
 /* body STYLE */
 body {
-    max-width: 500px;
     min-height: 100vh;
     margin: 0 auto;
     padding: 2rem;
-    border-left: 1px solid rgba(0, 0, 0, 1);
-    border-right: 1px solid rgba(0, 0, 0, 1);
 }
 
 /* h1 STYLE */
 h1 {
     text-align: center;
-    font-size: 2rem;
-    margin-bottom: 2rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 /* MENU SECTION */
 .our_menu {
+    max-width: 30rem;
     margin: 0 auto;
     padding: 0;
-    border: 1px solid rgb(0, 0, 0);
     text-align: center;
-    border-radius: 1rem;
 }
 
 .our_menu h2 {
-    border-bottom: 1px solid rgb(0, 0, 0);
-    padding: 1rem 0;
-    background-color: rgb(255, 255, 240);
-    border-radius: 1rem 1rem 0 0;
+    padding: 2rem 0;
 }
 
 /* STYLE THE LIST */
@@ -49,7 +42,7 @@ li a {
     display: block;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
 
 /* see examples at
@@ -58,6 +51,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child
 /* STYLE START FIRST CHILD OF THE LIST */
 li:first-child a {
     background-color: rgb(255, 0, 0);
+    border-radius: 50% 50% 0 0;
 }
 
 li:first-child a:visited {
@@ -121,7 +115,7 @@ li:nth-child(3) a:active {
 /* STYLE START LAST CHILD OF THE LIST */
 li:last-child a {
     background-color: rgb(255, 140, 0);
-    border-radius: 0 0 1rem 1rem;
+    border-radius: 0 0 50% 50%;
 
 }
 
