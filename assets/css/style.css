@@ -1,0 +1,152 @@
+/* RESETTING DEFAULT STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body STYLE */
+body {
+    max-width: 500px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+    border-left: 1px solid rgba(0, 0, 0, 1);
+    border-right: 1px solid rgba(0, 0, 0, 1);
+}
+
+/* h1 STYLE */
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* MENU SECTION */
+.our_menu {
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.our_menu h2 {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 1rem 0;
+    background-color: rgb(255, 255, 240);
+    border-radius: 1rem 1rem 0 0;
+}
+
+/* STYLE THE LIST */
+ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+/* STYLE ALL a TAGS */
+li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem;
+}
+
+/* see examples at
+https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child
+*/
+/* STYLE START FIRST CHILD OF THE LIST */
+li:first-child a {
+    background-color: rgb(255, 0, 0);
+}
+
+li:first-child a:visited {
+    background-color: rgb(255, 215, 0);
+    color: rgb(0, 0, 255);
+}
+
+li:first-child a:hover {
+    background-color: rgb(0, 255, 255);
+    color: rgb(255, 0, 0);
+}
+
+li:first-child a:active {
+    background-color: rgb(255, 0, 255);
+    color: rgb(255, 235, 205);
+}
+/* STYLE END FIRST CHILD OF THE LIST */
+
+/* STYLE START 2nd CHILD OF THE LIST */
+li:nth-child(2) a {
+    background-color: rgb(0, 128, 0);
+}
+
+li:nth-child(2) a:visited {
+    background-color: rgb(255, 235, 205);
+    color: rgb(139, 0, 139);
+}
+
+li:nth-child(2) a:hover {
+    background-color: rgb(139, 0, 139);
+    color: rgb(255, 255, 0);
+}
+
+li:nth-child(2) a:active {
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 128, 0);
+}
+/* STYLE END 2nd CHILD OF THE LIST */
+
+/* STYLE START 3rd CHILD OF THE LIST */
+li:nth-child(3) a {
+    background-color: rgb(0, 0, 255);
+}
+
+li:nth-child(3) a:visited {
+    background-color: rgb(189, 183, 107);
+    color: rgb(0, 255, 255);
+}
+
+li:nth-child(3) a:hover {
+    background-color: rgb(255, 20, 147);
+    color: rgb(0, 255, 255);
+}
+
+li:nth-child(3) a:active {
+    background-color: rgb(0, 255, 255);
+    color: rgb(220, 20, 60);
+}
+/* STYLE END 3rd CHILD OF THE LIST */
+
+/* STYLE START LAST CHILD OF THE LIST */
+li:last-child a {
+    background-color: rgb(255, 140, 0);
+    border-radius: 0 0 1rem 1rem;
+
+}
+
+li:last-child a:visited {
+    background-color: rgb(240, 255, 255);
+    color: rgb(0, 100, 0);
+}
+
+li:last-child a:hover {
+    background-color: rgb(127, 255, 0);
+    color: rgb(153, 50, 204);
+}
+
+li:last-child a:active {
+    background-color: rgb(0, 255, 255);
+    color: rgb(0, 0, 255);
+}
+/* STYLE END LAST CHILD OF THE LIST */
+
+/* FOOTER STYLE START */
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: 800;
+}
+/* FOOTER STYLE END */
